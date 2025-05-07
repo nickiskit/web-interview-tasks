@@ -1,4 +1,5 @@
-# Agent Portal
+# Superhero Directory
+
 
 This project is a React web application built using [Vite](https://vite.dev/), with [Tailwind CSS](https://tailwindcss.com/) for styling.
 
@@ -22,4 +23,5 @@ Then go to <https://superheroapi.com/>, generate a new API key and set it in the
 
 - `npm start` - run development server
 - `npm build` - production build
-```
+
+Open an example superhero page at <http://localhost:5173/63>.
