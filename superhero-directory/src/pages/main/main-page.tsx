@@ -48,7 +48,11 @@ export function MainPage(): JSX.Element {
         Welcome to the Superhero Directory! Here you can find information about
         your favorite superheroes.
       </p>
-      <SearchInput value={query} onChange={handleChange} placeholder={'Search superheroes...'}/>
+      <SearchInput
+        value={query}
+        onChange={handleChange}
+        placeholder={'Search superheroes...'}
+      />
       <HeroesList data={data} isLoading={isLoading} error={error} />
     </>
   );
